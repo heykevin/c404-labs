@@ -1,5 +1,5 @@
 import requests
 
-response = requests.post('http://ccid-eddieantonio.rhcloud.com/tkevin');
+response = requests.get('https://raw.githubusercontent.com/heykevin/c404-labs/master/req.py');
 
-print response.status_code
+print response.text
